@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_exercise_log">
+<title>ExerciseLog class Reference</title>
+<para>Inheritance diagram for ExerciseLog</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_exercise_log__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for ExerciseLog</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_exercise_log__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>非公開変数類</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>char * exmenu</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double mets</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int min</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_exercise_log_1aba1a88ed0b4e6d17843cab673210942c">Print</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_exercise_log_1a54052316d7c4e8a9b260e1d9aca5bb75">ExerciseLog</link> (
+const char * _date, const char * _exmenu, double _mets, int _min)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>クラスの説明 </para>
+    </simplesect>
+        <section>
+            <title>メンバ詳解</title>
+            <simplesect>
+                <title>char* ExerciseLog::exmenu</title>                
+<para>メンバ1の説明 </para>
+
+                <para>Definition at line 19 of file test.cpp</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>test.cpp</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>double ExerciseLog::mets</title>                
+<para>メンバ1の説明 </para>
+
+                <para>Definition at line 21 of file test.cpp</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>test.cpp</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="class_exercise_log_1aba1a88ed0b4e6d17843cab673210942c">
+                <title>void ExerciseLog::Print ()</title> <emphasis></emphasis>
+                
+<para>メソッド2の説明。詳細説明 <formalpara><title>戻り値: </title>
+
+<para>成功 0, 失敗 0 以外 など </para>
+</formalpara>
+
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>例外                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>例外。不要であればnoneを記述</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_exercise_log_1a54052316d7c4e8a9b260e1d9aca5bb75">
+                <title>ExerciseLog::ExerciseLog (const char *_date, const char *_exmenu, double _mets, int _min)</title> <emphasis></emphasis>
+                
+<para>メソッド2の説明。詳細説明 <formalpara><title>戻り値: </title>
+
+<para>成功 0, 失敗 0 以外 など </para>
+</formalpara>
+
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>例外                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>例外。不要であればnoneを記述</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

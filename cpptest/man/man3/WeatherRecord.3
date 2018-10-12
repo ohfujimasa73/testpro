@@ -1,0 +1,91 @@
+.TH "WeatherRecord" 3 "2018年06月24日(日)" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WeatherRecord
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fBListItem\fPを継承しています。
+.SS "公開メンバ関数"
+
+.in +1c
+.ti -1c
+.RI "\fBWeatherRecord\fP (const char *_date, const char *_weather, int _high, int _low)"
+.br
+.ti -1c
+.RI "void \fBPrint\fP ()"
+.br
+.in -1c
+.SS "非公開変数類"
+
+.in +1c
+.ti -1c
+.RI "char * \fBweather\fP"
+.br
+.ti -1c
+.RI "int \fBhigh\fP"
+.br
+.ti -1c
+.RI "int \fBlow\fP"
+.br
+.in -1c
+.SS "その他の継承メンバ"
+.SH "詳解"
+.PP 
+ test\&.cpp の 22 行目に定義があります。
+.SH "構築子と解体子"
+.PP 
+.SS "WeatherRecord::WeatherRecord (const char * _date, const char * _weather, int _high, int _low)\fC [inline]\fP"
+
+.PP
+ test\&.cpp の 29 行目に定義があります。
+.PP
+.nf
+33              :ListItem(_date){
+34         /* 天気を初期化 */
+35         this->weather = new char[strlen(_weather) + 1];
+36         memset( this->weather , '\0' , strlen(_weather) + 1);
+37         strcpy( this->weather , _weather);
+38         /* 最高気温代入 */
+39         this->high = _high;
+40         /* 最低気温代入 */
+41         this->low = _low;
+42     }
+.fi
+.SH "関数詳解"
+.PP 
+.SS "void WeatherRecord::Print ()\fC [inline]\fP, \fC [virtual]\fP"
+
+.PP
+\fBListItem\fPを実装しています。
+.PP
+ test\&.cpp の 44 行目に定義があります。
+.PP
+.nf
+44                 {
+45         cout << this->name << ": " 
+46         << this->weather << ": " 
+47         << this->high << "/" << this->low << 
+48         "(度)" << endl;
+49     }
+.fi
+.SH "メンバ詳解"
+.PP 
+.SS "int WeatherRecord::high\fC [private]\fP"
+
+.PP
+ test\&.cpp の 25 行目に定義があります。
+.SS "int WeatherRecord::low\fC [private]\fP"
+
+.PP
+ test\&.cpp の 26 行目に定義があります。
+.SS "char* WeatherRecord::weather\fC [private]\fP"
+
+.PP
+ test\&.cpp の 24 行目に定義があります。
+
+.SH "著者"
+.PP 
+ My Projectのソースコードから抽出しました。

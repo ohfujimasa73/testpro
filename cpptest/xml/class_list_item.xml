@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_list_item" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>ListItem</compoundname>
+    <derivedcompoundref refid="class_weather_record" prot="public" virt="non-virtual">WeatherRecord</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_list_item_1a721391bcdefb1a5f77b79295a80b0305" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* ListItem::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="9" column="1" bodyfile="test.cpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_list_item_1a0bb35843489312a6796d6f94f4395399" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ListItem::Print</definition>
+        <argsstring>()=0</argsstring>
+        <name>Print</name>
+        <reimplementedby refid="class_weather_record_1a824790f08728d4deb81dfcbaec5a76ba">Print</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="12" column="1"/>
+        <referencedby refid="class_list_1a071cb188f9bb9bb8d1d79e6f939c586c" compoundref="test_8cpp" startline="96" endline="102">List::Print</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_list_item_1a19fe16421201217d9c0647865243c07b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ListItem::ListItem</definition>
+        <argsstring>(const char *_date)</argsstring>
+        <name>ListItem</name>
+        <param>
+          <type>const char *</type>
+          <declname>_date</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="14" column="1" bodyfile="test.cpp" bodystart="14" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>WeatherRecord</label>
+        <link refid="class_weather_record"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>ListItem</label>
+        <link refid="class_list_item"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="17">
+        <label>ListItem</label>
+        <link refid="class_list_item"/>
+      </node>
+    </collaborationgraph>
+    <location file="test.cpp" line="7" column="1" bodyfile="test.cpp" bodystart="7" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_list_item_1a19fe16421201217d9c0647865243c07b" prot="public" virt="non-virtual"><scope>ListItem</scope><name>ListItem</name></member>
+      <member refid="class_list_item_1a721391bcdefb1a5f77b79295a80b0305" prot="public" virt="non-virtual"><scope>ListItem</scope><name>name</name></member>
+      <member refid="class_list_item_1a0bb35843489312a6796d6f94f4395399" prot="public" virt="pure-virtual"><scope>ListItem</scope><name>Print</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

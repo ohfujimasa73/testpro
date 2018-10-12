@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="class_a_b_c" kind="class"><name>ABC</name>
+    <member refid="class_a_b_c_1a1bea7fc9f73e0d6878f9d2ac9ef3c1ec" kind="function"><name>ABC</name></member>
+  </compound>
+  <compound refid="class_c_h_a_n_n_e_l" kind="class"><name>CHANNEL</name>
+    <member refid="class_c_h_a_n_n_e_l_1a1a513303b0e58b1c9e0e9e03f9f50617" kind="variable"><name>name</name></member>
+    <member refid="class_c_h_a_n_n_e_l_1a233c9484f865fee53d66da81fb6b9e2d" kind="function"><name>CHANNEL</name></member>
+    <member refid="class_c_h_a_n_n_e_l_1aa9daccb6ddb609e501245fed29f0adfd" kind="function"><name>get_name</name></member>
+  </compound>
+  <compound refid="class_d_e_f" kind="class"><name>DEF</name>
+    <member refid="class_d_e_f_1a359a19dbba360787927e4a30485c6cde" kind="function"><name>DEF</name></member>
+  </compound>
+  <compound refid="class_list" kind="class"><name>List</name>
+    <member refid="class_list_1a0fd821411e5922f1733b2afe207f6b28" kind="variable"><name>data</name></member>
+    <member refid="class_list_1ab03801c8c3765b381b45a306d34f5daa" kind="variable"><name>point</name></member>
+    <member refid="class_list_1a73fc93ef327ff5f4bb35fd628b658d50" kind="variable"><name>max</name></member>
+    <member refid="class_list_1a1fa6361e0cbcad09ed3e748b22eb1e19" kind="function"><name>List</name></member>
+    <member refid="class_list_1a70aecf37bd9d779a394e4d50377fbf5f" kind="function"><name>~List</name></member>
+    <member refid="class_list_1a593e13086a1d135ac9efb530d26cd94b" kind="function"><name>Add</name></member>
+    <member refid="class_list_1ac59284ff8d930a99616e9a13d49f92b4" kind="function"><name>Sort</name></member>
+    <member refid="class_list_1a071cb188f9bb9bb8d1d79e6f939c586c" kind="function"><name>Print</name></member>
+    <member refid="class_list_1a518ec1c2a0f0331d4f5fd5733e197d0c" kind="function"><name>Search</name></member>
+  </compound>
+  <compound refid="class_list_item" kind="class"><name>ListItem</name>
+    <member refid="class_list_item_1a721391bcdefb1a5f77b79295a80b0305" kind="variable"><name>name</name></member>
+    <member refid="class_list_item_1a0bb35843489312a6796d6f94f4395399" kind="function"><name>Print</name></member>
+    <member refid="class_list_item_1a19fe16421201217d9c0647865243c07b" kind="function"><name>ListItem</name></member>
+  </compound>
+  <compound refid="class_t_v" kind="class"><name>TV</name>
+    <member refid="class_t_v_1a7bb8008571c1ca7539e937252503889b" kind="variable"><name>abc</name></member>
+    <member refid="class_t_v_1ab5e13d7d33ed800b78ddb755b11b7fa2" kind="variable"><name>def</name></member>
+    <member refid="class_t_v_1a02a3fb40f0a254fef0b4aacb6362b563" kind="function"><name>TV</name></member>
+    <member refid="class_t_v_1a377383017c486aa83467f7ad977e3653" kind="function"><name>~TV</name></member>
+    <member refid="class_t_v_1a26370b5928a57c9af9ed35f9c8f34ba4" kind="function"><name>change_channel</name></member>
+  </compound>
+  <compound refid="class_weather_record" kind="class"><name>WeatherRecord</name>
+    <member refid="class_weather_record_1a3b9b2139f84c02e1ba36b1bee333e057" kind="variable"><name>weather</name></member>
+    <member refid="class_weather_record_1ab1f968211ccc7fe600f76d31f3b0edc9" kind="variable"><name>high</name></member>
+    <member refid="class_weather_record_1a16a7592e80388a4b2091c027cd18aed3" kind="variable"><name>low</name></member>
+    <member refid="class_weather_record_1a6a4edf430381ee7ac701876f787c7633" kind="function"><name>WeatherRecord</name></member>
+    <member refid="class_weather_record_1a824790f08728d4deb81dfcbaec5a76ba" kind="function"><name>Print</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="chanel_8cpp" kind="file"><name>chanel.cpp</name>
+    <member refid="chanel_8cpp_1a513cb4309778b669aec8a3e5638079ac" kind="define"><name>ABCCHAN</name></member>
+    <member refid="chanel_8cpp_1aa9f5e75679b639a2c4ec2faf66372b86" kind="define"><name>DEFCHAN</name></member>
+    <member refid="chanel_8cpp_1a0c1a83009ab44960907c64b7a1ad6135" kind="define"><name>OFFCHAN</name></member>
+    <member refid="chanel_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="test_8cpp" kind="file"><name>test.cpp</name>
+    <member refid="test_8cpp_1add33a83c7b2de277d5846db56efc6dae" kind="function"><name>swap</name></member>
+    <member refid="test_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+</doxygenindex>

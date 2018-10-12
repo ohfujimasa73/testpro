@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="test_8cpp">
+    <title>test.cpp File Reference</title>
+    <programlisting>#include &lt;iostream&gt;</programlisting>
+    <programlisting>#include &lt;string.h&gt;</programlisting>
+<para>Include dependency diagram for test.cpp</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="test_8cpp__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for test.cpp</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="test_8cpp__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title> クラス </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_list_item">ListItem</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_weather_record">WeatherRecord</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_list">List</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>関数</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="test_8cpp_1add33a83c7b2de277d5846db56efc6dae">swap</link> (
+char * input, char * input2)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="test_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>詳解</title>
+    <para>Definition in file C:/Users/USER/Desktop/GitHub/test/cpptest/test.cpp</para>
+    </simplesect>
+</section>

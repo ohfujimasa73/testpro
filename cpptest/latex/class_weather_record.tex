@@ -1,0 +1,124 @@
+\hypertarget{class_weather_record}{}\section{Weather\+Record クラス}
+\label{class_weather_record}\index{Weather\+Record@{Weather\+Record}}
+
+
+Weather\+Record の継承関係図
+% FIG 0
+
+
+Weather\+Record 連携図
+% FIG 1
+\subsection*{公開メンバ関数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_weather_record_a6a4edf430381ee7ac701876f787c7633}{Weather\+Record} (const char $\ast$\+\_\+date, const char $\ast$\+\_\+weather, int \+\_\+high, int \+\_\+low)
+\item 
+void \hyperlink{class_weather_record_a824790f08728d4deb81dfcbaec5a76ba}{Print} ()
+\end{DoxyCompactItemize}
+\subsection*{非公開変数類}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \hyperlink{class_weather_record_a3b9b2139f84c02e1ba36b1bee333e057}{weather}
+\item 
+int \hyperlink{class_weather_record_ab1f968211ccc7fe600f76d31f3b0edc9}{high}
+\item 
+int \hyperlink{class_weather_record_a16a7592e80388a4b2091c027cd18aed3}{low}
+\end{DoxyCompactItemize}
+\subsection*{その他の継承メンバ}
+
+
+\subsection{詳解}
+
+
+ test.\+cpp の 22 行目に定義があります。
+
+
+
+\subsection{構築子と解体子}
+\mbox{\Hypertarget{class_weather_record_a6a4edf430381ee7ac701876f787c7633}\label{class_weather_record_a6a4edf430381ee7ac701876f787c7633}} 
+\index{Weather\+Record@{Weather\+Record}!Weather\+Record@{Weather\+Record}}
+\index{Weather\+Record@{Weather\+Record}!Weather\+Record@{Weather\+Record}}
+\subsubsection{\texorpdfstring{Weather\+Record()}{WeatherRecord()}}
+{\footnotesize\ttfamily Weather\+Record\+::\+Weather\+Record (\begin{DoxyParamCaption}\item[{const char $\ast$}]{\+\_\+date,  }\item[{const char $\ast$}]{\+\_\+weather,  }\item[{int}]{\+\_\+high,  }\item[{int}]{\+\_\+low }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+ test.\+cpp の 29 行目に定義があります。
+
+
+\begin{DoxyCode}
+33              :\hyperlink{class_list_item_a19fe16421201217d9c0647865243c07b}{ListItem}(\_date)\{
+34         \textcolor{comment}{/* 天気を初期化 */}
+35         this->\hyperlink{class_weather_record_a3b9b2139f84c02e1ba36b1bee333e057}{weather} = \textcolor{keyword}{new} \textcolor{keywordtype}{char}[strlen(\_weather) + 1];
+36         memset( this->\hyperlink{class_weather_record_a3b9b2139f84c02e1ba36b1bee333e057}{weather} , \textcolor{charliteral}{'\(\backslash\)0'} , strlen(\_weather) + 1);
+37         strcpy( this->\hyperlink{class_weather_record_a3b9b2139f84c02e1ba36b1bee333e057}{weather} , \_weather);
+38         \textcolor{comment}{/* 最高気温代入 */}
+39         this->\hyperlink{class_weather_record_ab1f968211ccc7fe600f76d31f3b0edc9}{high} = \_high;
+40         \textcolor{comment}{/* 最低気温代入 */}
+41         this->\hyperlink{class_weather_record_a16a7592e80388a4b2091c027cd18aed3}{low} = \_low;
+42     \}
+\end{DoxyCode}
+
+
+\subsection{関数詳解}
+\mbox{\Hypertarget{class_weather_record_a824790f08728d4deb81dfcbaec5a76ba}\label{class_weather_record_a824790f08728d4deb81dfcbaec5a76ba}} 
+\index{Weather\+Record@{Weather\+Record}!Print@{Print}}
+\index{Print@{Print}!Weather\+Record@{Weather\+Record}}
+\subsubsection{\texorpdfstring{Print()}{Print()}}
+{\footnotesize\ttfamily void Weather\+Record\+::\+Print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+\hyperlink{class_list_item_a0bb35843489312a6796d6f94f4395399}{List\+Item}を実装しています。
+
+
+
+ test.\+cpp の 44 行目に定義があります。
+
+
+\begin{DoxyCode}
+44                 \{
+45         cout << this->\hyperlink{class_list_item_a721391bcdefb1a5f77b79295a80b0305}{name} << \textcolor{stringliteral}{": "} 
+46         << this->\hyperlink{class_weather_record_a3b9b2139f84c02e1ba36b1bee333e057}{weather} << \textcolor{stringliteral}{": "} 
+47         << this->\hyperlink{class_weather_record_ab1f968211ccc7fe600f76d31f3b0edc9}{high} << \textcolor{stringliteral}{"/"} << this->\hyperlink{class_weather_record_a16a7592e80388a4b2091c027cd18aed3}{low} << 
+48         \textcolor{stringliteral}{"(度)"} << endl;
+49     \}
+\end{DoxyCode}
+
+
+\subsection{メンバ詳解}
+\mbox{\Hypertarget{class_weather_record_ab1f968211ccc7fe600f76d31f3b0edc9}\label{class_weather_record_ab1f968211ccc7fe600f76d31f3b0edc9}} 
+\index{Weather\+Record@{Weather\+Record}!high@{high}}
+\index{high@{high}!Weather\+Record@{Weather\+Record}}
+\subsubsection{\texorpdfstring{high}{high}}
+{\footnotesize\ttfamily int Weather\+Record\+::high\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+ test.\+cpp の 25 行目に定義があります。
+
+\mbox{\Hypertarget{class_weather_record_a16a7592e80388a4b2091c027cd18aed3}\label{class_weather_record_a16a7592e80388a4b2091c027cd18aed3}} 
+\index{Weather\+Record@{Weather\+Record}!low@{low}}
+\index{low@{low}!Weather\+Record@{Weather\+Record}}
+\subsubsection{\texorpdfstring{low}{low}}
+{\footnotesize\ttfamily int Weather\+Record\+::low\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+ test.\+cpp の 26 行目に定義があります。
+
+\mbox{\Hypertarget{class_weather_record_a3b9b2139f84c02e1ba36b1bee333e057}\label{class_weather_record_a3b9b2139f84c02e1ba36b1bee333e057}} 
+\index{Weather\+Record@{Weather\+Record}!weather@{weather}}
+\index{weather@{weather}!Weather\+Record@{Weather\+Record}}
+\subsubsection{\texorpdfstring{weather}{weather}}
+{\footnotesize\ttfamily char$\ast$ Weather\+Record\+::weather\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+ test.\+cpp の 24 行目に定義があります。
+
+
+
+このクラス詳解は次のファイルから抽出されました\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{test_8cpp}{test.\+cpp}\end{DoxyCompactItemize}

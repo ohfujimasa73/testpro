@@ -1,0 +1,175 @@
+.TH "List" 3 "2018年06月24日(日)" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+List
+.SH SYNOPSIS
+.br
+.PP
+.SS "公開メンバ関数"
+
+.in +1c
+.ti -1c
+.RI "\fBList\fP (int num)"
+.br
+.ti -1c
+.RI "\fB~List\fP ()"
+.br
+.ti -1c
+.RI "void \fBAdd\fP (\fBListItem\fP *p)"
+.br
+.ti -1c
+.RI "void \fBSort\fP ()"
+.br
+.ti -1c
+.RI "void \fBPrint\fP ()"
+.br
+.ti -1c
+.RI "void \fBSearch\fP (const char *input)"
+.br
+.in -1c
+.SS "非公開変数類"
+
+.in +1c
+.ti -1c
+.RI "\fBListItem\fP ** \fBdata\fP"
+.br
+.ti -1c
+.RI "int \fBpoint\fP"
+.br
+.ti -1c
+.RI "int \fBmax\fP"
+.br
+.in -1c
+.SH "詳解"
+.PP 
+ test\&.cpp の 52 行目に定義があります。
+.SH "構築子と解体子"
+.PP 
+.SS "List::List (int num)\fC [inline]\fP"
+
+.PP
+ test\&.cpp の 59 行目に定義があります。
+.PP
+.nf
+59                  {
+60         /* データ数分メモリ確保 */
+61         this->data = new ListItem * [num];
+62         /* 現在のポインタ位置 */
+63         this->point = 0;
+64         /* 最大サイズ */
+65         this->max = num;
+66     }
+.fi
+.SS "List::~List ()\fC [inline]\fP"
+
+.PP
+ test\&.cpp の 68 行目に定義があります。
+.PP
+.nf
+68            {
+69         delete[] this->data;
+70     }
+.fi
+.SH "関数詳解"
+.PP 
+.SS "void List::Add (\fBListItem\fP * p)\fC [inline]\fP"
+
+.PP
+ test\&.cpp の 72 行目に定義があります。
+.PP
+参照元 main()\&.
+.PP
+.nf
+72                          {
+73         /* データオーバー */
+74         if(this->point >= this->max){
+75             cout << "memory size over" << endl;
+76             return;
+77         }
+78         /* データ格納 */
+79         data[this->point++] = p;
+80         return;
+81     }
+.fi
+.SS "void List::Print ()\fC [inline]\fP"
+
+.PP
+ test\&.cpp の 96 行目に定義があります。
+.PP
+参照先 ListItem::Print()\&.
+.PP
+参照元 main()\&.
+.PP
+.nf
+96                 {
+97         /* データ印字 */
+98         for(int loop = 0 ; loop < this->point; loop++){
+99             data[loop]->Print();
+100         }
+101         return;
+102     }
+.fi
+.SS "void List::Search (const char * input)\fC [inline]\fP"
+
+.PP
+ test\&.cpp の 104 行目に定義があります。
+.PP
+参照元 main()\&.
+.PP
+.nf
+104                                   {
+105         /* データ存在を確認 */
+106         for(int loop = 0 ; loop < this->point; loop++){
+107             /* データ存在 */
+108             if(!strcmp(input,data[loop]->name)){
+109                 cout << input << " is exist" << endl;
+110                 return;
+111             }
+112         }
+113         /* データ存在しない */
+114         cout << input << " is not exist" << endl;
+115         return;
+116     }
+.fi
+.SS "void List::Sort ()\fC [inline]\fP"
+
+.PP
+ test\&.cpp の 83 行目に定義があります。
+.PP
+参照先 swap()\&.
+.PP
+参照元 main()\&.
+.PP
+.nf
+83                {
+84         /* ソートする */
+85         for(int loop = 0; loop < this->point - 1; loop++){
+86             for(int loop2 = this->point - 1 ; loop2 > loop ; loop2--){
+87                 if(strcmp(this->data[loop2]->name,this->data[loop2 - 1]->name) < 0){
+88                     /* スワップする */
+89                     swap(this->data[loop2],this->data[loop2 -1]);
+90                 }
+91             }
+92         }
+93         return;
+94     }
+.fi
+.SH "メンバ詳解"
+.PP 
+.SS "\fBListItem\fP** List::data\fC [private]\fP"
+
+.PP
+ test\&.cpp の 54 行目に定義があります。
+.SS "int List::max\fC [private]\fP"
+
+.PP
+ test\&.cpp の 56 行目に定義があります。
+.SS "int List::point\fC [private]\fP"
+
+.PP
+ test\&.cpp の 55 行目に定義があります。
+
+.SH "著者"
+.PP 
+ My Projectのソースコードから抽出しました。

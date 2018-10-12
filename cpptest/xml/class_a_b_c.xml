@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_a_b_c" kind="class" language="C++" prot="public">
+    <compoundname>ABC</compoundname>
+    <basecompoundref refid="class_c_h_a_n_n_e_l" prot="public" virt="non-virtual">CHANNEL</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_b_c_1a1bea7fc9f73e0d6878f9d2ac9ef3c1ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ABC::ABC</definition>
+        <argsstring>()</argsstring>
+        <name>ABC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chanel.cpp" line="23" column="1" bodyfile="chanel.cpp" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CHANNEL</label>
+        <link refid="class_c_h_a_n_n_e_l"/>
+      </node>
+      <node id="0">
+        <label>ABC</label>
+        <link refid="class_a_b_c"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CHANNEL</label>
+        <link refid="class_c_h_a_n_n_e_l"/>
+      </node>
+      <node id="2">
+        <label>ABC</label>
+        <link refid="class_a_b_c"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="chanel.cpp" line="21" column="1" bodyfile="chanel.cpp" bodystart="21" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_a_b_c_1a1bea7fc9f73e0d6878f9d2ac9ef3c1ec" prot="public" virt="non-virtual"><scope>ABC</scope><name>ABC</name></member>
+      <member refid="class_c_h_a_n_n_e_l_1a233c9484f865fee53d66da81fb6b9e2d" prot="public" virt="non-virtual"><scope>ABC</scope><name>CHANNEL</name></member>
+      <member refid="class_c_h_a_n_n_e_l_1aa9daccb6ddb609e501245fed29f0adfd" prot="public" virt="non-virtual"><scope>ABC</scope><name>get_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="chanel_8cpp">
+    <title>chanel.cpp File Reference</title>
+    <programlisting>#include &lt;iostream&gt;</programlisting>
+    <programlisting>#include &lt;string&gt;</programlisting>
+<para>Include dependency diagram for chanel.cpp</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="chanel_8cpp__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for chanel.cpp</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="chanel_8cpp__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title> クラス </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_c_h_a_n_n_e_l">CHANNEL</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_a_b_c">ABC</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_d_e_f">DEF</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_t_v">TV</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>マクロ定義</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="chanel_8cpp_1a513cb4309778b669aec8a3e5638079ac">ABCCHAN</link> &quot;0&quot;</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="chanel_8cpp_1aa9f5e75679b639a2c4ec2faf66372b86">DEFCHAN</link> &quot;1&quot;</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para>#define <link linkend="chanel_8cpp_1a0c1a83009ab44960907c64b7a1ad6135">OFFCHAN</link> &quot;OFF&quot;</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>関数</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="chanel_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>詳解</title>
+    <para>Definition in file C:/Users/USER/Desktop/GitHub/test/cpptest/chanel.cpp</para>
+    </simplesect>
+</section>

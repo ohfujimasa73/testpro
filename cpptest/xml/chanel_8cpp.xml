@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="chanel_8cpp" kind="file" language="C++">
+    <compoundname>chanel.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="0">
+        <label>chanel.cpp</label>
+        <link refid="chanel_8cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="1">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_c_h_a_n_n_e_l" prot="public">CHANNEL</innerclass>
+    <innerclass refid="class_a_b_c" prot="public">ABC</innerclass>
+    <innerclass refid="class_d_e_f" prot="public">DEF</innerclass>
+    <innerclass refid="class_t_v" prot="public">TV</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="chanel_8cpp_1a513cb4309778b669aec8a3e5638079ac" prot="public" static="no">
+        <name>ABCCHAN</name>
+        <initializer>&quot;0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chanel.cpp" line="4" column="9" bodyfile="chanel.cpp" bodystart="4" bodyend="-1"/>
+        <referencedby refid="class_t_v_1a26370b5928a57c9af9ed35f9c8f34ba4" compoundref="chanel_8cpp" startline="44" endline="55">TV::change_channel</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="chanel_8cpp_1aa9f5e75679b639a2c4ec2faf66372b86" prot="public" static="no">
+        <name>DEFCHAN</name>
+        <initializer>&quot;1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chanel.cpp" line="5" column="9" bodyfile="chanel.cpp" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_t_v_1a26370b5928a57c9af9ed35f9c8f34ba4" compoundref="chanel_8cpp" startline="44" endline="55">TV::change_channel</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="chanel_8cpp_1a0c1a83009ab44960907c64b7a1ad6135" prot="public" static="no">
+        <name>OFFCHAN</name>
+        <initializer>&quot;OFF&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chanel.cpp" line="6" column="9" bodyfile="chanel.cpp" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_t_v_1a26370b5928a57c9af9ed35f9c8f34ba4" compoundref="chanel_8cpp" startline="44" endline="55">TV::change_channel</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="chanel_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chanel.cpp" line="58" column="1" bodyfile="chanel.cpp" bodystart="58" bodyend="62"/>
+        <references refid="class_t_v_1a26370b5928a57c9af9ed35f9c8f34ba4" compoundref="chanel_8cpp" startline="44" endline="55">TV::change_channel</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="chanel_8cpp_1a513cb4309778b669aec8a3e5638079ac" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ABCCHAN<sp/>&quot;0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="chanel_8cpp_1aa9f5e75679b639a2c4ec2faf66372b86" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEFCHAN<sp/>&quot;1&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="chanel_8cpp_1a0c1a83009ab44960907c64b7a1ad6135" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OFFCHAN<sp/>&quot;OFF&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_c_h_a_n_n_e_l" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c_h_a_n_n_e_l" kindref="compound">CHANNEL</ref><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="10" refid="class_c_h_a_n_n_e_l_1a1a513303b0e58b1c9e0e9e03f9f50617" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_c_h_a_n_n_e_l_1a1a513303b0e58b1c9e0e9e03f9f50617" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12" refid="class_c_h_a_n_n_e_l_1a233c9484f865fee53d66da81fb6b9e2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_c_h_a_n_n_e_l_1a233c9484f865fee53d66da81fb6b9e2d" kindref="member">CHANNEL</ref>(std::string<sp/>input){</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;name<sp/>=<sp/>input;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15" refid="class_c_h_a_n_n_e_l_1aa9daccb6ddb609e501245fed29f0adfd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_c_h_a_n_n_e_l_1aa9daccb6ddb609e501245fed29f0adfd" kindref="member">get_name</ref>(){</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_c_h_a_n_n_e_l_1a1a513303b0e58b1c9e0e9e03f9f50617" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_a_b_c" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_a_b_c" kindref="compound">ABC</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_c_h_a_n_n_e_l" kindref="compound">CHANNEL</ref><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23" refid="class_a_b_c_1a1bea7fc9f73e0d6878f9d2ac9ef3c1ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_b_c_1a1bea7fc9f73e0d6878f9d2ac9ef3c1ec" kindref="member">ABC</ref>():<ref refid="class_c_h_a_n_n_e_l" kindref="compound">CHANNEL</ref>(</highlight><highlight class="stringliteral">&quot;ABC局&quot;</highlight><highlight class="normal">){}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_d_e_f" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_d_e_f" kindref="compound">DEF</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_c_h_a_n_n_e_l" kindref="compound">CHANNEL</ref><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28" refid="class_d_e_f_1a359a19dbba360787927e4a30485c6cde" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_d_e_f_1a359a19dbba360787927e4a30485c6cde" kindref="member">DEF</ref>():<ref refid="class_c_h_a_n_n_e_l" kindref="compound">CHANNEL</ref>(</highlight><highlight class="stringliteral">&quot;DEF局&quot;</highlight><highlight class="normal">){}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_t_v" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_t_v" kindref="compound">TV</ref><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34" refid="class_t_v_1a7bb8008571c1ca7539e937252503889b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_b_c" kindref="compound">ABC</ref><sp/><ref refid="class_t_v_1a7bb8008571c1ca7539e937252503889b" kindref="member">abc</ref>;</highlight></codeline>
+<codeline lineno="35" refid="class_t_v_1ab5e13d7d33ed800b78ddb755b11b7fa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_d_e_f" kindref="compound">DEF</ref><sp/><ref refid="class_t_v_1ab5e13d7d33ed800b78ddb755b11b7fa2" kindref="member">def</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="37" refid="class_t_v_1a02a3fb40f0a254fef0b4aacb6362b563" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_t_v_1a02a3fb40f0a254fef0b4aacb6362b563" kindref="member">TV</ref>(){</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;スイッチON\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41" refid="class_t_v_1a377383017c486aa83467f7ad977e3653" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_t_v_1a377383017c486aa83467f7ad977e3653" kindref="member">~TV</ref>(){</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;スイッチOFF\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44" refid="class_t_v_1a26370b5928a57c9af9ed35f9c8f34ba4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_t_v_1a26370b5928a57c9af9ed35f9c8f34ba4" kindref="member">change_channel</ref>(){</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;チャンネル入力<sp/>[<sp/>0<sp/>or<sp/>1<sp/>or<sp/>off<sp/>]<sp/>:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>input;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cin<sp/>&gt;&gt;<sp/>input;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(input<sp/>==<sp/><ref refid="chanel_8cpp_1a513cb4309778b669aec8a3e5638079ac" kindref="member">ABCCHAN</ref>){</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>abc.<ref refid="class_c_h_a_n_n_e_l_1aa9daccb6ddb609e501245fed29f0adfd" kindref="member">get_name</ref>()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(input<sp/>==<sp/><ref refid="chanel_8cpp_1aa9f5e75679b639a2c4ec2faf66372b86" kindref="member">DEFCHAN</ref>){</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>def.<ref refid="class_c_h_a_n_n_e_l_1aa9daccb6ddb609e501245fed29f0adfd" kindref="member">get_name</ref>()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(input<sp/>==<sp/><ref refid="chanel_8cpp_1a0c1a83009ab44960907c64b7a1ad6135" kindref="member">OFFCHAN</ref>){</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="chanel_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="chanel_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>(){</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_t_v" kindref="compound">TV</ref><sp/>tv;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>tv.<ref refid="class_t_v_1a26370b5928a57c9af9ed35f9c8f34ba4" kindref="member">change_channel</ref>();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="chanel.cpp"/>
+  </compounddef>
+</doxygen>

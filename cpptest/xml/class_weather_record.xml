@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_weather_record" kind="class" language="C++" prot="public">
+    <compoundname>WeatherRecord</compoundname>
+    <basecompoundref refid="class_list_item" prot="public" virt="non-virtual">ListItem</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_weather_record_1a3b9b2139f84c02e1ba36b1bee333e057" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* WeatherRecord::weather</definition>
+        <argsstring></argsstring>
+        <name>weather</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="24" column="1" bodyfile="test.cpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weather_record_1ab1f968211ccc7fe600f76d31f3b0edc9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WeatherRecord::high</definition>
+        <argsstring></argsstring>
+        <name>high</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="25" column="1" bodyfile="test.cpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_weather_record_1a16a7592e80388a4b2091c027cd18aed3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WeatherRecord::low</definition>
+        <argsstring></argsstring>
+        <name>low</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="26" column="1" bodyfile="test.cpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_weather_record_1a6a4edf430381ee7ac701876f787c7633" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WeatherRecord::WeatherRecord</definition>
+        <argsstring>(const char *_date, const char *_weather, int _high, int _low)</argsstring>
+        <name>WeatherRecord</name>
+        <param>
+          <type>const char *</type>
+          <declname>_date</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>_weather</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_high</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_low</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="29" column="1" bodyfile="test.cpp" bodystart="29" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_weather_record_1a824790f08728d4deb81dfcbaec5a76ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void WeatherRecord::Print</definition>
+        <argsstring>()</argsstring>
+        <name>Print</name>
+        <reimplements refid="class_list_item_1a0bb35843489312a6796d6f94f4395399">Print</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="44" column="1" bodyfile="test.cpp" bodystart="44" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="23">
+        <label>WeatherRecord</label>
+        <link refid="class_weather_record"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>ListItem</label>
+        <link refid="class_list_item"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="25">
+        <label>WeatherRecord</label>
+        <link refid="class_weather_record"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>ListItem</label>
+        <link refid="class_list_item"/>
+      </node>
+    </collaborationgraph>
+    <location file="test.cpp" line="22" column="1" bodyfile="test.cpp" bodystart="22" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_weather_record_1ab1f968211ccc7fe600f76d31f3b0edc9" prot="private" virt="non-virtual"><scope>WeatherRecord</scope><name>high</name></member>
+      <member refid="class_list_item_1a19fe16421201217d9c0647865243c07b" prot="public" virt="non-virtual"><scope>WeatherRecord</scope><name>ListItem</name></member>
+      <member refid="class_weather_record_1a16a7592e80388a4b2091c027cd18aed3" prot="private" virt="non-virtual"><scope>WeatherRecord</scope><name>low</name></member>
+      <member refid="class_list_item_1a721391bcdefb1a5f77b79295a80b0305" prot="public" virt="non-virtual"><scope>WeatherRecord</scope><name>name</name></member>
+      <member refid="class_weather_record_1a824790f08728d4deb81dfcbaec5a76ba" prot="public" virt="virtual"><scope>WeatherRecord</scope><name>Print</name></member>
+      <member refid="class_weather_record_1a3b9b2139f84c02e1ba36b1bee333e057" prot="private" virt="non-virtual"><scope>WeatherRecord</scope><name>weather</name></member>
+      <member refid="class_weather_record_1a6a4edf430381ee7ac701876f787c7633" prot="public" virt="non-virtual"><scope>WeatherRecord</scope><name>WeatherRecord</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

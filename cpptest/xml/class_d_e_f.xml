@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_d_e_f" kind="class" language="C++" prot="public">
+    <compoundname>DEF</compoundname>
+    <basecompoundref refid="class_c_h_a_n_n_e_l" prot="public" virt="non-virtual">CHANNEL</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_e_f_1a359a19dbba360787927e4a30485c6cde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DEF::DEF</definition>
+        <argsstring>()</argsstring>
+        <name>DEF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chanel.cpp" line="28" column="1" bodyfile="chanel.cpp" bodystart="28" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>CHANNEL</label>
+        <link refid="class_c_h_a_n_n_e_l"/>
+      </node>
+      <node id="8">
+        <label>DEF</label>
+        <link refid="class_d_e_f"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>CHANNEL</label>
+        <link refid="class_c_h_a_n_n_e_l"/>
+      </node>
+      <node id="10">
+        <label>DEF</label>
+        <link refid="class_d_e_f"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="chanel.cpp" line="26" column="1" bodyfile="chanel.cpp" bodystart="26" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_c_h_a_n_n_e_l_1a233c9484f865fee53d66da81fb6b9e2d" prot="public" virt="non-virtual"><scope>DEF</scope><name>CHANNEL</name></member>
+      <member refid="class_d_e_f_1a359a19dbba360787927e4a30485c6cde" prot="public" virt="non-virtual"><scope>DEF</scope><name>DEF</name></member>
+      <member refid="class_c_h_a_n_n_e_l_1aa9daccb6ddb609e501245fed29f0adfd" prot="public" virt="non-virtual"><scope>DEF</scope><name>get_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

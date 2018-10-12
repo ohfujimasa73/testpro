@@ -1,0 +1,135 @@
+\hypertarget{class_exercise_log}{}\section{Exercise\+Log クラス}
+\label{class_exercise_log}\index{Exercise\+Log@{Exercise\+Log}}
+
+
+クラスの説明  
+
+
+
+
+Exercise\+Log の継承関係図
+% FIG 0
+
+
+Exercise\+Log 連携図
+% FIG 1
+\subsection*{公開メンバ関数}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_exercise_log_aba1a88ed0b4e6d17843cab673210942c}{Print} ()
+\item 
+\hyperlink{class_exercise_log_a54052316d7c4e8a9b260e1d9aca5bb75}{Exercise\+Log} (const char $\ast$\+\_\+date, const char $\ast$\+\_\+exmenu, double \+\_\+mets, int \+\_\+min)
+\end{DoxyCompactItemize}
+\subsection*{非公開変数類}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \hyperlink{class_exercise_log_aa7d8e7d8b226d049d279912b9fc0fd5b}{exmenu}
+\item 
+double \hyperlink{class_exercise_log_a511c5c637f86192270d0588fd7b0c5ee}{mets}
+\item 
+int \hyperlink{class_exercise_log_a9fc8d465bb5d443970799bafd82441a4}{min}
+\end{DoxyCompactItemize}
+\subsection*{その他の継承メンバ}
+
+
+\subsection{詳解}
+クラスの説明 
+
+ test.\+cpp の 16 行目に定義があります。
+
+
+
+\subsection{構築子と解体子}
+\mbox{\Hypertarget{class_exercise_log_a54052316d7c4e8a9b260e1d9aca5bb75}\label{class_exercise_log_a54052316d7c4e8a9b260e1d9aca5bb75}} 
+\index{Exercise\+Log@{Exercise\+Log}!Exercise\+Log@{Exercise\+Log}}
+\index{Exercise\+Log@{Exercise\+Log}!Exercise\+Log@{Exercise\+Log}}
+\subsubsection{\texorpdfstring{Exercise\+Log()}{ExerciseLog()}}
+{\footnotesize\ttfamily Exercise\+Log\+::\+Exercise\+Log (\begin{DoxyParamCaption}\item[{const char $\ast$}]{\+\_\+date,  }\item[{const char $\ast$}]{\+\_\+exmenu,  }\item[{double}]{\+\_\+mets,  }\item[{int}]{\+\_\+min }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+メソッド2の説明。詳細説明 \begin{DoxyReturn}{戻り値}
+成功 0, 失敗 0 以外 など 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{例外}
+{\em 例外。不要であればnoneを記述} & \\
+\hline
+\end{DoxyExceptions}
+
+
+ test.\+cpp の 35 行目に定義があります。
+
+
+\begin{DoxyCode}
+35                                                                                 \{
+36         this->date = \_date;
+37         this->\hyperlink{class_exercise_log_aa7d8e7d8b226d049d279912b9fc0fd5b}{exmenu} = \_exmenu;
+38         this->\hyperlink{class_exercise_log_a511c5c637f86192270d0588fd7b0c5ee}{mets} = \_mets;
+39         this->\hyperlink{class_exercise_log_a9fc8d465bb5d443970799bafd82441a4}{min} = \_min;
+40     \}
+\end{DoxyCode}
+
+
+\subsection{関数詳解}
+\mbox{\Hypertarget{class_exercise_log_aba1a88ed0b4e6d17843cab673210942c}\label{class_exercise_log_aba1a88ed0b4e6d17843cab673210942c}} 
+\index{Exercise\+Log@{Exercise\+Log}!Print@{Print}}
+\index{Print@{Print}!Exercise\+Log@{Exercise\+Log}}
+\subsubsection{\texorpdfstring{Print()}{Print()}}
+{\footnotesize\ttfamily void Exercise\+Log\+::\+Print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+メソッド2の説明。詳細説明 \begin{DoxyReturn}{戻り値}
+成功 0, 失敗 0 以外 など 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{例外}
+{\em 例外。不要であればnoneを記述} & \\
+\hline
+\end{DoxyExceptions}
+
+
+ test.\+cpp の 28 行目に定義があります。
+
+
+\begin{DoxyCode}
+28                 \{
+29         cout << this->\hyperlink{class_list_item_a721391bcdefb1a5f77b79295a80b0305}{name} + \textcolor{stringliteral}{":"} +  this->\hyperlink{class_exercise_log_aa7d8e7d8b226d049d279912b9fc0fd5b}{exmenu} + \textcolor{stringliteral}{":"} + this->\hyperlink{class_exercise_log_a511c5c637f86192270d0588fd7b0c5ee}{mets} + \textcolor{stringliteral}{"(METs),"} +  this->
+      \hyperlink{class_exercise_log_a9fc8d465bb5d443970799bafd82441a4}{min} + \textcolor{stringliteral}{"(min)"} << endl;
+30     \}
+\end{DoxyCode}
+
+
+\subsection{メンバ詳解}
+\mbox{\Hypertarget{class_exercise_log_aa7d8e7d8b226d049d279912b9fc0fd5b}\label{class_exercise_log_aa7d8e7d8b226d049d279912b9fc0fd5b}} 
+\index{Exercise\+Log@{Exercise\+Log}!exmenu@{exmenu}}
+\index{exmenu@{exmenu}!Exercise\+Log@{Exercise\+Log}}
+\subsubsection{\texorpdfstring{exmenu}{exmenu}}
+{\footnotesize\ttfamily char$\ast$ Exercise\+Log\+::exmenu\hspace{0.3cm}{\ttfamily [private]}}
+
+メンバ1の説明 
+
+ test.\+cpp の 19 行目に定義があります。
+
+\mbox{\Hypertarget{class_exercise_log_a511c5c637f86192270d0588fd7b0c5ee}\label{class_exercise_log_a511c5c637f86192270d0588fd7b0c5ee}} 
+\index{Exercise\+Log@{Exercise\+Log}!mets@{mets}}
+\index{mets@{mets}!Exercise\+Log@{Exercise\+Log}}
+\subsubsection{\texorpdfstring{mets}{mets}}
+{\footnotesize\ttfamily double Exercise\+Log\+::mets\hspace{0.3cm}{\ttfamily [private]}}
+
+メンバ1の説明 
+
+ test.\+cpp の 21 行目に定義があります。
+
+\mbox{\Hypertarget{class_exercise_log_a9fc8d465bb5d443970799bafd82441a4}\label{class_exercise_log_a9fc8d465bb5d443970799bafd82441a4}} 
+\index{Exercise\+Log@{Exercise\+Log}!min@{min}}
+\index{min@{min}!Exercise\+Log@{Exercise\+Log}}
+\subsubsection{\texorpdfstring{min}{min}}
+{\footnotesize\ttfamily int Exercise\+Log\+::min\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+ test.\+cpp の 22 行目に定義があります。
+
+
+
+このクラス詳解は次のファイルから抽出されました\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{test_8cpp}{test.\+cpp}\end{DoxyCompactItemize}

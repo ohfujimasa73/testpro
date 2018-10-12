@@ -1,0 +1,95 @@
+.TH "TV" 3 "2018年06月24日(日)" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TV
+.SH SYNOPSIS
+.br
+.PP
+.SS "公開メンバ関数"
+
+.in +1c
+.ti -1c
+.RI "\fBTV\fP ()"
+.br
+.ti -1c
+.RI "\fB~TV\fP ()"
+.br
+.ti -1c
+.RI "void \fBchange_channel\fP ()"
+.br
+.in -1c
+.SS "非公開変数類"
+
+.in +1c
+.ti -1c
+.RI "\fBABC\fP \fBabc\fP"
+.br
+.ti -1c
+.RI "\fBDEF\fP \fBdef\fP"
+.br
+.in -1c
+.SH "詳解"
+.PP 
+ chanel\&.cpp の 32 行目に定義があります。
+.SH "構築子と解体子"
+.PP 
+.SS "TV::TV ()\fC [inline]\fP"
+
+.PP
+ chanel\&.cpp の 37 行目に定義があります。
+.PP
+.nf
+37         {
+38         std::cout << "スイッチON\n";
+39     }
+.fi
+.SS "TV::~TV ()\fC [inline]\fP"
+
+.PP
+ chanel\&.cpp の 41 行目に定義があります。
+.PP
+.nf
+41          {
+42         std::cout << "スイッチOFF\n";
+43     }
+.fi
+.SH "関数詳解"
+.PP 
+.SS "void TV::change_channel ()\fC [inline]\fP"
+
+.PP
+ chanel\&.cpp の 44 行目に定義があります。
+.PP
+参照先 ABCCHAN, DEFCHAN, CHANNEL::get_name(), OFFCHAN\&.
+.PP
+参照元 main()\&.
+.PP
+.nf
+44                          {
+45         std::cout << "チャンネル入力 [ 0 or 1 or off ] : ";
+46         std::string input;
+47         std::cin >> input;
+48         if(input == ABCCHAN){
+49             std::cout << abc\&.get_name() << std::endl;
+50         }else if(input == DEFCHAN){
+51             std::cout << def\&.get_name() << std::endl;
+52         }else if(input == OFFCHAN){
+53             break;
+54         }
+55     }
+.fi
+.SH "メンバ詳解"
+.PP 
+.SS "\fBABC\fP TV::abc\fC [private]\fP"
+
+.PP
+ chanel\&.cpp の 34 行目に定義があります。
+.SS "\fBDEF\fP TV::def\fC [private]\fP"
+
+.PP
+ chanel\&.cpp の 35 行目に定義があります。
+
+.SH "著者"
+.PP 
+ My Projectのソースコードから抽出しました。

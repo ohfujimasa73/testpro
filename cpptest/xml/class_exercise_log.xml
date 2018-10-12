@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_exercise_log" kind="class" language="C++" prot="public">
+    <compoundname>ExerciseLog</compoundname>
+    <basecompoundref refid="class_list_item" prot="public" virt="non-virtual">ListItem</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_exercise_log_1aa7d8e7d8b226d049d279912b9fc0fd5b" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* ExerciseLog::exmenu</definition>
+        <argsstring></argsstring>
+        <name>exmenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>メンバ1の説明 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="19" column="1" bodyfile="test.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_exercise_log_1a511c5c637f86192270d0588fd7b0c5ee" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ExerciseLog::mets</definition>
+        <argsstring></argsstring>
+        <name>mets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>メンバ1の説明 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="21" column="1" bodyfile="test.cpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_exercise_log_1a9fc8d465bb5d443970799bafd82441a4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ExerciseLog::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="22" column="1" bodyfile="test.cpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_exercise_log_1aba1a88ed0b4e6d17843cab673210942c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExerciseLog::Print</definition>
+        <argsstring>()</argsstring>
+        <name>Print</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>メソッド2の説明。詳細説明 <simplesect kind="return"><para>成功 0, 失敗 0 以外 など </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>例外。不要であればnoneを記述</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="28" column="1" bodyfile="test.cpp" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_exercise_log_1a54052316d7c4e8a9b260e1d9aca5bb75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ExerciseLog::ExerciseLog</definition>
+        <argsstring>(const char *_date, const char *_exmenu, double _mets, int _min)</argsstring>
+        <name>ExerciseLog</name>
+        <param>
+          <type>const char *</type>
+          <declname>_date</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>_exmenu</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_mets</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_min</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>メソッド2の説明。詳細説明 <simplesect kind="return"><para>成功 0, 失敗 0 以外 など </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>例外。不要であればnoneを記述</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="test.cpp" line="35" column="1" bodyfile="test.cpp" bodystart="35" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>クラスの説明 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="13">
+        <label>ListItem</label>
+        <link refid="class_list_item"/>
+      </node>
+      <node id="12">
+        <label>ExerciseLog</label>
+        <link refid="class_exercise_log"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="15">
+        <label>ListItem</label>
+        <link refid="class_list_item"/>
+      </node>
+      <node id="14">
+        <label>ExerciseLog</label>
+        <link refid="class_exercise_log"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="test.cpp" line="16" column="1" bodyfile="test.cpp" bodystart="16" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_exercise_log_1a54052316d7c4e8a9b260e1d9aca5bb75" prot="public" virt="non-virtual"><scope>ExerciseLog</scope><name>ExerciseLog</name></member>
+      <member refid="class_exercise_log_1aa7d8e7d8b226d049d279912b9fc0fd5b" prot="private" virt="non-virtual"><scope>ExerciseLog</scope><name>exmenu</name></member>
+      <member refid="class_exercise_log_1a511c5c637f86192270d0588fd7b0c5ee" prot="private" virt="non-virtual"><scope>ExerciseLog</scope><name>mets</name></member>
+      <member refid="class_exercise_log_1a9fc8d465bb5d443970799bafd82441a4" prot="private" virt="non-virtual"><scope>ExerciseLog</scope><name>min</name></member>
+      <member refid="class_list_item_1a721391bcdefb1a5f77b79295a80b0305" prot="protected" virt="non-virtual"><scope>ExerciseLog</scope><name>name</name></member>
+      <member refid="class_exercise_log_1aba1a88ed0b4e6d17843cab673210942c" prot="public" virt="non-virtual"><scope>ExerciseLog</scope><name>Print</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,90 @@
+.TH "test.cpp" 3 "2018年06月24日(日)" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+test.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <iostream>\fP
+.br
+\fC#include <string\&.h>\fP
+.br
+
+.SS "クラス"
+
+.in +1c
+.ti -1c
+.RI "class \fBListItem\fP"
+.br
+.ti -1c
+.RI "class \fBWeatherRecord\fP"
+.br
+.ti -1c
+.RI "class \fBList\fP"
+.br
+.in -1c
+.SS "関数"
+
+.in +1c
+.ti -1c
+.RI "void \fBswap\fP (char *input, char *input2)"
+.br
+.ti -1c
+.RI "int \fBmain\fP ()"
+.br
+.in -1c
+.SH "関数詳解"
+.PP 
+.SS "int main ()"
+
+.PP
+ test\&.cpp の 126 行目に定義があります。
+.PP
+参照先 List::Add(), List::Print(), List::Search(), List::Sort()\&.
+.PP
+.nf
+126           {
+127 
+128     int num;
+129     /* データサイズ入力 */
+130     cout <<"INPUT DATA SIZE:" << endl;
+131     cin >> num;
+132     /* Listクラスのインスタンスの生成 */
+133     List weatherlist(num);
+134     /* エントリーの追加 */
+135     weatherlist\&.Add(new WeatherRecord("2015-06-24", "sunny", 29, 18));
+136     weatherlist\&.Add(new WeatherRecord("2015-06-25", "cloudy", 29, 20));
+137     weatherlist\&.Add(new WeatherRecord("2015-06-23", "sunny", 27, 19));
+138     weatherlist\&.Add(new WeatherRecord("2015-06-26", "rain", 26, 19));
+139     /* 印刷 */
+140     weatherlist\&.Print();
+141     cout << "-----------------" << endl;
+142     /* エントリーのソート */
+143     weatherlist\&.Sort();
+144     /* 印刷 */
+145     weatherlist\&.Print();
+146     cout << "-----------------" << endl;
+147     /* 検索 */
+148     weatherlist\&.Search("2015-06-22");
+149     weatherlist\&.Search("2015-06-24");
+150     return 0;
+151 }
+.fi
+.SS "void swap (char * input, char * input2)"
+
+.PP
+ test\&.cpp の 120 行目に定義があります。
+.PP
+参照元 List::Sort()\&.
+.PP
+.nf
+120                                     {
+121     char *temp = input;
+122     input = input2;
+123     input2 = temp;
+124 }
+.fi
+.SH "著者"
+.PP 
+ My Projectのソースコードから抽出しました。

@@ -1,0 +1,5 @@
+<map id="TV" name="TV">
+<area shape="rect" id="node2" href="$class_d_e_f.html" title="{DEF\n||+ DEF()\l}" alt="" coords="5,147,73,224"/>
+<area shape="rect" id="node3" href="$class_c_h_a_n_n_e_l.html" title="{CHANNEL\n|&#45; name\l|+ CHANNEL()\l+ get_name()\l}" alt="" coords="41,5,144,97"/>
+<area shape="rect" id="node4" href="$class_a_b_c.html" title="{ABC\n||+ ABC()\l}" alt="" coords="98,147,167,224"/>
+</map>

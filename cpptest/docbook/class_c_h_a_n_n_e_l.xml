@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_c_h_a_n_n_e_l">
+<title>CHANNEL class Reference</title>
+<para>Inheritance diagram for CHANNEL</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_c_h_a_n_n_e_l__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for CHANNEL</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_c_h_a_n_n_e_l__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>非公開変数類</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>std::string name</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_c_h_a_n_n_e_l_1a233c9484f865fee53d66da81fb6b9e2d">CHANNEL</link> (
+std::string input)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>std::string <link linkend="class_c_h_a_n_n_e_l_1aa9daccb6ddb609e501245fed29f0adfd">get_name</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>メンバ詳解</title>
+        </section>
+            <section xml:id="class_c_h_a_n_n_e_l_1a233c9484f865fee53d66da81fb6b9e2d">
+                <title>CHANNEL::CHANNEL (std::string input)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_c_h_a_n_n_e_l_1aa9daccb6ddb609e501245fed29f0adfd">
+                <title>std::string CHANNEL::get_name ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

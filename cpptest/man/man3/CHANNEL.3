@@ -1,0 +1,70 @@
+.TH "CHANNEL" 3 "2018年06月24日(日)" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CHANNEL
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fBABC\fP, \fBDEF\fPに継承されています。
+.SS "公開メンバ関数"
+
+.in +1c
+.ti -1c
+.RI "\fBCHANNEL\fP (std::string input)"
+.br
+.ti -1c
+.RI "std::string \fBget_name\fP ()"
+.br
+.in -1c
+.SS "非公開変数類"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBname\fP"
+.br
+.in -1c
+.SH "詳解"
+.PP 
+ chanel\&.cpp の 8 行目に定義があります。
+.SH "構築子と解体子"
+.PP 
+.SS "CHANNEL::CHANNEL (std::string input)\fC [inline]\fP"
+
+.PP
+ chanel\&.cpp の 12 行目に定義があります。
+.PP
+.nf
+12                             {
+13         this->name = input;
+14     }
+.fi
+.SH "関数詳解"
+.PP 
+.SS "std::string CHANNEL::get_name ()\fC [inline]\fP"
+
+.PP
+ chanel\&.cpp の 15 行目に定義があります。
+.PP
+参照先 name\&.
+.PP
+参照元 TV::change_channel()\&.
+.PP
+.nf
+15                         {
+16         return this->name;
+17     }
+.fi
+.SH "メンバ詳解"
+.PP 
+.SS "std::string CHANNEL::name\fC [private]\fP"
+
+.PP
+ chanel\&.cpp の 10 行目に定義があります。
+.PP
+参照元 get_name()\&.
+
+.SH "著者"
+.PP 
+ My Projectのソースコードから抽出しました。

@@ -1,0 +1,88 @@
+.TH "chanel.cpp" 3 "2018年06月24日(日)" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+chanel.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <iostream>\fP
+.br
+\fC#include <string>\fP
+.br
+
+.SS "クラス"
+
+.in +1c
+.ti -1c
+.RI "class \fBCHANNEL\fP"
+.br
+.ti -1c
+.RI "class \fBABC\fP"
+.br
+.ti -1c
+.RI "class \fBDEF\fP"
+.br
+.ti -1c
+.RI "class \fBTV\fP"
+.br
+.in -1c
+.SS "マクロ定義"
+
+.in +1c
+.ti -1c
+.RI "#define \fBABCCHAN\fP   '0'"
+.br
+.ti -1c
+.RI "#define \fBDEFCHAN\fP   '1'"
+.br
+.ti -1c
+.RI "#define \fBOFFCHAN\fP   'OFF'"
+.br
+.in -1c
+.SS "関数"
+
+.in +1c
+.ti -1c
+.RI "int \fBmain\fP ()"
+.br
+.in -1c
+.SH "マクロ定義詳解"
+.PP 
+.SS "#define ABCCHAN   '0'"
+
+.PP
+ chanel\&.cpp の 4 行目に定義があります。
+.PP
+参照元 TV::change_channel()\&.
+.SS "#define DEFCHAN   '1'"
+
+.PP
+ chanel\&.cpp の 5 行目に定義があります。
+.PP
+参照元 TV::change_channel()\&.
+.SS "#define OFFCHAN   'OFF'"
+
+.PP
+ chanel\&.cpp の 6 行目に定義があります。
+.PP
+参照元 TV::change_channel()\&.
+.SH "関数詳解"
+.PP 
+.SS "int main ()"
+
+.PP
+ chanel\&.cpp の 58 行目に定義があります。
+.PP
+参照先 TV::change_channel()\&.
+.PP
+.nf
+58           {
+59     TV tv;
+60     tv\&.change_channel();
+61     return 0;
+62 }
+.fi
+.SH "著者"
+.PP 
+ My Projectのソースコードから抽出しました。

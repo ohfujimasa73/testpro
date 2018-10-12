@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_c_h_a_n_n_e_l" kind="class" language="C++" prot="public">
+    <compoundname>CHANNEL</compoundname>
+    <derivedcompoundref refid="class_a_b_c" prot="public" virt="non-virtual">ABC</derivedcompoundref>
+    <derivedcompoundref refid="class_d_e_f" prot="public" virt="non-virtual">DEF</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_h_a_n_n_e_l_1a1a513303b0e58b1c9e0e9e03f9f50617" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CHANNEL::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chanel.cpp" line="10" column="1" bodyfile="chanel.cpp" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_c_h_a_n_n_e_l_1aa9daccb6ddb609e501245fed29f0adfd" compoundref="chanel_8cpp" startline="15" endline="17">get_name</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_h_a_n_n_e_l_1a233c9484f865fee53d66da81fb6b9e2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CHANNEL::CHANNEL</definition>
+        <argsstring>(std::string input)</argsstring>
+        <name>CHANNEL</name>
+        <param>
+          <type>std::string</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chanel.cpp" line="12" column="1" bodyfile="chanel.cpp" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_h_a_n_n_e_l_1aa9daccb6ddb609e501245fed29f0adfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string CHANNEL::get_name</definition>
+        <argsstring>()</argsstring>
+        <name>get_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chanel.cpp" line="15" column="1" bodyfile="chanel.cpp" bodystart="15" bodyend="17"/>
+        <references refid="class_c_h_a_n_n_e_l_1a1a513303b0e58b1c9e0e9e03f9f50617" compoundref="chanel_8cpp" startline="10">name</references>
+        <referencedby refid="class_t_v_1a26370b5928a57c9af9ed35f9c8f34ba4" compoundref="chanel_8cpp" startline="44" endline="55">TV::change_channel</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>CHANNEL</label>
+        <link refid="class_c_h_a_n_n_e_l"/>
+      </node>
+      <node id="6">
+        <label>DEF</label>
+        <link refid="class_d_e_f"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ABC</label>
+        <link refid="class_a_b_c"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>CHANNEL</label>
+        <link refid="class_c_h_a_n_n_e_l"/>
+      </node>
+    </collaborationgraph>
+    <location file="chanel.cpp" line="8" column="1" bodyfile="chanel.cpp" bodystart="8" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_c_h_a_n_n_e_l_1a233c9484f865fee53d66da81fb6b9e2d" prot="public" virt="non-virtual"><scope>CHANNEL</scope><name>CHANNEL</name></member>
+      <member refid="class_c_h_a_n_n_e_l_1aa9daccb6ddb609e501245fed29f0adfd" prot="public" virt="non-virtual"><scope>CHANNEL</scope><name>get_name</name></member>
+      <member refid="class_c_h_a_n_n_e_l_1a1a513303b0e58b1c9e0e9e03f9f50617" prot="private" virt="non-virtual"><scope>CHANNEL</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

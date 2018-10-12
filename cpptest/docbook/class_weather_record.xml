@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_weather_record">
+<title>WeatherRecord class Reference</title>
+<para>Inheritance diagram for WeatherRecord</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_weather_record__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for WeatherRecord</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_weather_record__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>非公開変数類</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>char * weather</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int high</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int low</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_weather_record_1a6a4edf430381ee7ac701876f787c7633">WeatherRecord</link> (
+const char * _date, const char * _weather, int _high, int _low)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_weather_record_1a824790f08728d4deb81dfcbaec5a76ba">Print</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>メンバ詳解</title>
+        </section>
+            <section xml:id="class_weather_record_1a6a4edf430381ee7ac701876f787c7633">
+                <title>WeatherRecord::WeatherRecord (const char *_date, const char *_weather, int _high, int _low)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_weather_record_1a824790f08728d4deb81dfcbaec5a76ba">
+                <title>void WeatherRecord::Print ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

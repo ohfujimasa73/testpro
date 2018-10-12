@@ -1,0 +1,63 @@
+.TH "ListItem" 3 "2018年06月24日(日)" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ListItem
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fBWeatherRecord\fPに継承されています。
+.SS "公開メンバ関数"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBPrint\fP ()=0"
+.br
+.ti -1c
+.RI "\fBListItem\fP (const char *_date)"
+.br
+.in -1c
+.SS "公開変数類"
+
+.in +1c
+.ti -1c
+.RI "char * \fBname\fP"
+.br
+.in -1c
+.SH "詳解"
+.PP 
+ test\&.cpp の 7 行目に定義があります。
+.SH "構築子と解体子"
+.PP 
+.SS "ListItem::ListItem (const char * _date)\fC [inline]\fP"
+
+.PP
+ test\&.cpp の 14 行目に定義があります。
+.PP
+.nf
+14                                {
+15         /* 名前を初期化 */
+16         this->name = new char[strlen(_date) + 1];
+17         memset( this->name , '\0' , strlen( _date ) + 1);
+18         strcpy( this->name , _date );
+19     }
+.fi
+.SH "関数詳解"
+.PP 
+.SS "virtual void ListItem::Print ()\fC [pure virtual]\fP"
+
+.PP
+\fBWeatherRecord\fPで実装されています。
+.PP
+参照元 List::Print()\&.
+.SH "メンバ詳解"
+.PP 
+.SS "char* ListItem::name"
+
+.PP
+ test\&.cpp の 9 行目に定義があります。
+
+.SH "著者"
+.PP 
+ My Projectのソースコードから抽出しました。

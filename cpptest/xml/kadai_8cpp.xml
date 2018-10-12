@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="kadai_8cpp" kind="file" language="C++">
+    <compoundname>kadai.cpp</compoundname>
+    <includes local="no">fstream</includes>
+    <includes local="no">string</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="0">
+        <label>kadai.cpp</label>
+        <link refid="kadai_8cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>fstream</label>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structdata" prot="public">data</innerclass>
+    <innernamespace refid="namespacestd">std</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="kadai_8cpp_1a70535ccc618237a0c7fce8317c55628e" prot="public" static="no">
+        <name>FILEPATH</name>
+        <initializer>&quot;./input.txt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kadai.cpp" line="8" column="9" bodyfile="kadai.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="kadai_8cpp_1a44ca5db654f4a4b925fded479fdbadef" prot="public" static="no">
+        <name>LISTNUM</name>
+        <initializer>100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kadai.cpp" line="9" column="9" bodyfile="kadai.cpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="kadai_8cpp_1acbc3a100dba40d7cc1a7422fc1bb371e" prot="public" static="no">
+        <type>struct <ref refid="structdata" kindref="compound">data</ref></type>
+        <definition>typedef struct data  listdata</definition>
+        <argsstring></argsstring>
+        <name>listdata</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kadai.cpp" line="14" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="kadai_8cpp_1af778ec8f9808cc1468bbc59874099d5d" prot="public" static="yes" mutable="no">
+        <type><ref refid="kadai_8cpp_1acbc3a100dba40d7cc1a7422fc1bb371e" kindref="member">listdata</ref></type>
+        <definition>listdata datalist[LISTNUM]</definition>
+        <argsstring>[LISTNUM]</argsstring>
+        <name>datalist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kadai.cpp" line="16" column="1" bodyfile="kadai.cpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="kadai_8cpp_1a969d5d33ad91b13dd6dd74473feea402" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void regist</definition>
+        <argsstring>(string input)</argsstring>
+        <name>regist</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kadai.cpp" line="19" column="1" bodyfile="kadai.cpp" bodystart="68" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="kadai_8cpp_1acfb9b1a222c282d57ef5233661d82b11" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void sort</definition>
+        <argsstring>(int num)</argsstring>
+        <name>sort</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kadai.cpp" line="20" column="1" bodyfile="kadai.cpp" bodystart="86" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="kadai_8cpp_1a0f0dc666087027ed8d427ac931e14605" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void show</definition>
+        <argsstring>(int shownum, int num)</argsstring>
+        <name>show</name>
+        <param>
+          <type>int</type>
+          <declname>shownum</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kadai.cpp" line="21" column="1" bodyfile="kadai.cpp" bodystart="103" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="kadai_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kadai.cpp" line="24" column="1" bodyfile="kadai.cpp" bodystart="24" bodyend="65"/>
+        <references refid="kadai_8cpp_1a70535ccc618237a0c7fce8317c55628e" compoundref="kadai_8cpp" startline="8">FILEPATH</references>
+        <references refid="kadai_8cpp_1a44ca5db654f4a4b925fded479fdbadef" compoundref="kadai_8cpp" startline="9">LISTNUM</references>
+        <references refid="structdata_1a81968760a8778cdbf1823851e20d6f83" compoundref="kadai_8cpp" startline="13">data::data</references>
+        <references refid="structdata_1a2aee730d4622a534e28616b789402a06" compoundref="kadai_8cpp" startline="12">data::num</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning(disable:4996)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="kadai_8cpp_1a70535ccc618237a0c7fce8317c55628e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FILEPATH<sp/>&quot;./input.txt&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="kadai_8cpp_1a44ca5db654f4a4b925fded479fdbadef" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LISTNUM<sp/>100</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="structdata" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structdata" kindref="compound">data</ref><sp/>{</highlight></codeline>
+<codeline lineno="12" refid="structdata_1a2aee730d4622a534e28616b789402a06" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structdata_1a2aee730d4622a534e28616b789402a06" kindref="member">num</ref>;</highlight></codeline>
+<codeline lineno="13" refid="structdata_1a81968760a8778cdbf1823851e20d6f83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structdata_1a81968760a8778cdbf1823851e20d6f83" kindref="member">data</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}<sp/><ref refid="kadai_8cpp_1acbc3a100dba40d7cc1a7422fc1bb371e" kindref="member">listdata</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structdata" kindref="compound">listdata</ref><sp/>datalist[<ref refid="kadai_8cpp_1a44ca5db654f4a4b925fded479fdbadef" kindref="member">LISTNUM</ref>];</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>regist(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>input);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>sort(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>show(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shownum<sp/>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="kadai_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="kadai_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>(){</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>input<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\0&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>loop;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shownum;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>ifstream<sp/>ifs(<sp/><ref refid="kadai_8cpp_1a70535ccc618237a0c7fce8317c55628e" kindref="member">FILEPATH</ref><sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ifs.fail())</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;file<sp/>open<sp/>fail&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(loop<sp/>=<sp/>0;<sp/>loop<sp/>&lt;<sp/><ref refid="kadai_8cpp_1a44ca5db654f4a4b925fded479fdbadef" kindref="member">LISTNUM</ref><sp/>;<sp/>loop++){</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>datalist[loop].<ref refid="structdata_1a81968760a8778cdbf1823851e20d6f83" kindref="member">data</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\0&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>datalist[loop].<ref refid="structdata_1a2aee730d4622a534e28616b789402a06" kindref="member">num</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(getline(ifs,<sp/>input))</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>regist(input);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>input<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\0&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(loop<sp/>=<sp/>0;<sp/>loop<sp/>&lt;<sp/><ref refid="kadai_8cpp_1a44ca5db654f4a4b925fded479fdbadef" kindref="member">LISTNUM</ref><sp/>;<sp/>loop++){</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(datalist[loop].num<sp/>==<sp/>0){</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>num++;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>sort(num);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;</highlight><highlight class="stringliteral">&quot;Input<sp/>refrain<sp/>num:&quot;</highlight><highlight class="normal">&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>cin<sp/>&gt;&gt;<sp/>shownum;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>show(shownum,num);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>regist(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>input){</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>loop;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(loop<sp/>=<sp/>0;<sp/>loop<sp/>&lt;<sp/><ref refid="kadai_8cpp_1a44ca5db654f4a4b925fded479fdbadef" kindref="member">LISTNUM</ref><sp/>;<sp/>loop++){</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(datalist[loop].<ref refid="structdata" kindref="compound">data</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;\0&quot;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>datalist[loop].<ref refid="structdata_1a81968760a8778cdbf1823851e20d6f83" kindref="member">data</ref><sp/>=<sp/>input;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>datalist[loop].<ref refid="structdata_1a2aee730d4622a534e28616b789402a06" kindref="member">num</ref>++;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(datalist[loop].<ref refid="structdata" kindref="compound">data</ref><sp/>==<sp/>input){</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>datalist[loop].<ref refid="structdata_1a2aee730d4622a534e28616b789402a06" kindref="member">num</ref>++;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>sort(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num){</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdata" kindref="compound">listdata</ref><sp/>temp;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>loop1,loo2;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(loop1<sp/>=<sp/>0;<sp/>loop1<sp/>&lt;<sp/>(num<sp/>-<sp/>1);<sp/>loop1++)<sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(loo2<sp/>=<sp/>(num<sp/>-<sp/>1);<sp/>loo2<sp/>&gt;<sp/>loop1;<sp/>loo2--)<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(datalist[loo2-1].<ref refid="structdata" kindref="compound">data</ref><sp/>&gt;<sp/>datalist[loo2].<ref refid="structdata" kindref="compound">data</ref><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp<sp/>=<sp/>datalist[loo2-1];</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>datalist[loo2-1]<sp/>=<sp/>datalist[loo2];</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>datalist[loo2]<sp/>=<sp/>temp;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>show(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shownum<sp/>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num){</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>loop;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(shownum<sp/>&lt;=<sp/>0<sp/>){</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;invalid<sp/>num&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(loop<sp/>=<sp/>0;<sp/>loop<sp/>&lt;<sp/><ref refid="kadai_8cpp_1a44ca5db654f4a4b925fded479fdbadef" kindref="member">LISTNUM</ref><sp/>;<sp/>loop++){</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(shownum<sp/>&lt;=<sp/>datalist[loop].num){</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>datalist[loop].<ref refid="structdata_1a81968760a8778cdbf1823851e20d6f83" kindref="member">data</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;:[&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>datalist[loop].<ref refid="structdata_1a2aee730d4622a534e28616b789402a06" kindref="member">num</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;]&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="kadai.cpp"/>
+  </compounddef>
+</doxygen>

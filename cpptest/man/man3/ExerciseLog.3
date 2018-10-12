@@ -1,0 +1,109 @@
+.TH "ExerciseLog" 3 "2018年06月24日(日)" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ExerciseLog \- クラスの説明  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fBListItem\fPを継承しています。
+.SS "公開メンバ関数"
+
+.in +1c
+.ti -1c
+.RI "void \fBPrint\fP ()"
+.br
+.ti -1c
+.RI "\fBExerciseLog\fP (const char *_date, const char *_exmenu, double _mets, int _min)"
+.br
+.in -1c
+.SS "非公開変数類"
+
+.in +1c
+.ti -1c
+.RI "char * \fBexmenu\fP"
+.br
+.ti -1c
+.RI "double \fBmets\fP"
+.br
+.ti -1c
+.RI "int \fBmin\fP"
+.br
+.in -1c
+.SS "その他の継承メンバ"
+.SH "詳解"
+.PP 
+クラスの説明 
+.PP
+ test\&.cpp の 16 行目に定義があります。
+.SH "構築子と解体子"
+.PP 
+.SS "ExerciseLog::ExerciseLog (const char * _date, const char * _exmenu, double _mets, int _min)\fC [inline]\fP"
+メソッド2の説明。詳細説明 
+.PP
+\fB戻り値:\fP
+.RS 4
+成功 0, 失敗 0 以外 など 
+.RE
+.PP
+\fB例外:\fP
+.RS 4
+\fI例外。不要であればnoneを記述\fP 
+.RE
+.PP
+
+.PP
+ test\&.cpp の 35 行目に定義があります。
+.PP
+.nf
+35                                                                                 {
+36         this->date = _date;
+37         this->exmenu = _exmenu;
+38         this->mets = _mets;
+39         this->min = _min;
+40     }
+.fi
+.SH "関数詳解"
+.PP 
+.SS "void ExerciseLog::Print ()\fC [inline]\fP"
+メソッド2の説明。詳細説明 
+.PP
+\fB戻り値:\fP
+.RS 4
+成功 0, 失敗 0 以外 など 
+.RE
+.PP
+\fB例外:\fP
+.RS 4
+\fI例外。不要であればnoneを記述\fP 
+.RE
+.PP
+
+.PP
+ test\&.cpp の 28 行目に定義があります。
+.PP
+.nf
+28                 {
+29         cout << this->name + ":" +  this->exmenu + ":" + this->mets + "(METs)," +  this->min + "(min)" << endl;
+30     }
+.fi
+.SH "メンバ詳解"
+.PP 
+.SS "char* ExerciseLog::exmenu\fC [private]\fP"
+メンバ1の説明 
+.PP
+ test\&.cpp の 19 行目に定義があります。
+.SS "double ExerciseLog::mets\fC [private]\fP"
+メンバ1の説明 
+.PP
+ test\&.cpp の 21 行目に定義があります。
+.SS "int ExerciseLog::min\fC [private]\fP"
+
+.PP
+ test\&.cpp の 22 行目に定義があります。
+
+.SH "著者"
+.PP 
+ My Projectのソースコードから抽出しました。

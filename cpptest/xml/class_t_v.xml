@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="class_t_v" kind="class" language="C++" prot="public">
+    <compoundname>TV</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_t_v_1a7bb8008571c1ca7539e937252503889b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_b_c" kindref="compound">ABC</ref></type>
+        <definition>ABC TV::abc</definition>
+        <argsstring></argsstring>
+        <name>abc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chanel.cpp" line="34" column="1" bodyfile="chanel.cpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_t_v_1ab5e13d7d33ed800b78ddb755b11b7fa2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_d_e_f" kindref="compound">DEF</ref></type>
+        <definition>DEF TV::def</definition>
+        <argsstring></argsstring>
+        <name>def</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chanel.cpp" line="35" column="1" bodyfile="chanel.cpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_t_v_1a02a3fb40f0a254fef0b4aacb6362b563" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TV::TV</definition>
+        <argsstring>()</argsstring>
+        <name>TV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chanel.cpp" line="37" column="1" bodyfile="chanel.cpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_v_1a377383017c486aa83467f7ad977e3653" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TV::~TV</definition>
+        <argsstring>()</argsstring>
+        <name>~TV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chanel.cpp" line="41" column="1" bodyfile="chanel.cpp" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_t_v_1a26370b5928a57c9af9ed35f9c8f34ba4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TV::change_channel</definition>
+        <argsstring>()</argsstring>
+        <name>change_channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="chanel.cpp" line="44" column="1" bodyfile="chanel.cpp" bodystart="44" bodyend="55"/>
+        <references refid="chanel_8cpp_1a513cb4309778b669aec8a3e5638079ac" compoundref="chanel_8cpp" startline="4">ABCCHAN</references>
+        <references refid="chanel_8cpp_1aa9f5e75679b639a2c4ec2faf66372b86" compoundref="chanel_8cpp" startline="5">DEFCHAN</references>
+        <references refid="class_c_h_a_n_n_e_l_1aa9daccb6ddb609e501245fed29f0adfd" compoundref="chanel_8cpp" startline="15" endline="17">CHANNEL::get_name</references>
+        <references refid="chanel_8cpp_1a0c1a83009ab44960907c64b7a1ad6135" compoundref="chanel_8cpp" startline="6">OFFCHAN</references>
+        <referencedby refid="chanel_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="chanel_8cpp" startline="58" endline="62">main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="21">
+        <label>CHANNEL</label>
+        <link refid="class_c_h_a_n_n_e_l"/>
+      </node>
+      <node id="20">
+        <label>DEF</label>
+        <link refid="class_d_e_f"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>TV</label>
+        <link refid="class_t_v"/>
+        <childnode refid="20" relation="usage">
+          <edgelabel>-def</edgelabel>
+        </childnode>
+        <childnode refid="22" relation="usage">
+          <edgelabel>-abc</edgelabel>
+        </childnode>
+      </node>
+      <node id="22">
+        <label>ABC</label>
+        <link refid="class_a_b_c"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="chanel.cpp" line="32" column="1" bodyfile="chanel.cpp" bodystart="32" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_t_v_1a7bb8008571c1ca7539e937252503889b" prot="private" virt="non-virtual"><scope>TV</scope><name>abc</name></member>
+      <member refid="class_t_v_1a26370b5928a57c9af9ed35f9c8f34ba4" prot="public" virt="non-virtual"><scope>TV</scope><name>change_channel</name></member>
+      <member refid="class_t_v_1ab5e13d7d33ed800b78ddb755b11b7fa2" prot="private" virt="non-virtual"><scope>TV</scope><name>def</name></member>
+      <member refid="class_t_v_1a02a3fb40f0a254fef0b4aacb6362b563" prot="public" virt="non-virtual"><scope>TV</scope><name>TV</name></member>
+      <member refid="class_t_v_1a377383017c486aa83467f7ad977e3653" prot="public" virt="non-virtual"><scope>TV</scope><name>~TV</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

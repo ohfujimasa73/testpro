@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_list">
+<title>List class Reference</title>
+<para>Inheritance diagram for List</para>
+<para>
+    <figure>
+        <title>Inheritance graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_list__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Collaboration diagram for List</para>
+<para>
+    <figure>
+        <title>Collaboration graph</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="class_list__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>非公開変数類</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>ListItem ** data</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int point</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int max</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_list_1a1fa6361e0cbcad09ed3e748b22eb1e19">List</link> (
+int num)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_list_1a70aecf37bd9d779a394e4d50377fbf5f">~List</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_list_1a593e13086a1d135ac9efb530d26cd94b">Add</link> (
+<link linkend="class_list_item">ListItem</link> * p)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_list_1ac59284ff8d930a99616e9a13d49f92b4">Sort</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_list_1a071cb188f9bb9bb8d1d79e6f939c586c">Print</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_list_1a518ec1c2a0f0331d4f5fd5733e197d0c">Search</link> (
+const char * input)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>メンバ詳解</title>
+        </section>
+            <section xml:id="class_list_1a1fa6361e0cbcad09ed3e748b22eb1e19">
+                <title>List::List (int num)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_list_1a70aecf37bd9d779a394e4d50377fbf5f">
+                <title>List::~List ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_list_1a593e13086a1d135ac9efb530d26cd94b">
+                <title>void List::Add (ListItem *p)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_list_1ac59284ff8d930a99616e9a13d49f92b4">
+                <title>void List::Sort ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_list_1a071cb188f9bb9bb8d1d79e6f939c586c">
+                <title>void List::Print ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_list_1a518ec1c2a0f0331d4f5fd5733e197d0c">
+                <title>void List::Search (const char *input)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

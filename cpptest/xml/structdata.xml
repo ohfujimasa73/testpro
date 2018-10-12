@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="structdata" kind="struct" language="C++" prot="public">
+    <compoundname>data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdata_1a2aee730d4622a534e28616b789402a06" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int data::num</definition>
+        <argsstring></argsstring>
+        <name>num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kadai.cpp" line="12" column="1" bodyfile="kadai.cpp" bodystart="12" bodyend="-1"/>
+        <referencedby refid="kadai_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="kadai_8cpp" startline="24" endline="65">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structdata_1a81968760a8778cdbf1823851e20d6f83" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string data::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="kadai.cpp" line="13" column="1" bodyfile="kadai.cpp" bodystart="13" bodyend="-1"/>
+        <referencedby refid="kadai_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="kadai_8cpp" startline="24" endline="65">main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="kadai.cpp" line="11" column="1" bodyfile="kadai.cpp" bodystart="11" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structdata_1a81968760a8778cdbf1823851e20d6f83" prot="public" virt="non-virtual"><scope>data</scope><name>data</name></member>
+      <member refid="structdata_1a2aee730d4622a534e28616b789402a06" prot="public" virt="non-virtual"><scope>data</scope><name>num</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

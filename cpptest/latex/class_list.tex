@@ -1,0 +1,248 @@
+\hypertarget{class_list}{}\section{List クラス}
+\label{class_list}\index{List@{List}}
+
+
+List 連携図
+% FIG 0
+\subsection*{公開メンバ関数}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_list_a1fa6361e0cbcad09ed3e748b22eb1e19}{List} (int num)
+\item 
+\hyperlink{class_list_a70aecf37bd9d779a394e4d50377fbf5f}{$\sim$\+List} ()
+\item 
+void \hyperlink{class_list_a593e13086a1d135ac9efb530d26cd94b}{Add} (\hyperlink{class_list_item}{List\+Item} $\ast$p)
+\item 
+void \hyperlink{class_list_ac59284ff8d930a99616e9a13d49f92b4}{Sort} ()
+\item 
+void \hyperlink{class_list_a071cb188f9bb9bb8d1d79e6f939c586c}{Print} ()
+\item 
+void \hyperlink{class_list_a518ec1c2a0f0331d4f5fd5733e197d0c}{Search} (const char $\ast$input)
+\end{DoxyCompactItemize}
+\subsection*{非公開変数類}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_list_item}{List\+Item} $\ast$$\ast$ \hyperlink{class_list_a0fd821411e5922f1733b2afe207f6b28}{data}
+\item 
+int \hyperlink{class_list_ab03801c8c3765b381b45a306d34f5daa}{point}
+\item 
+int \hyperlink{class_list_a73fc93ef327ff5f4bb35fd628b658d50}{max}
+\end{DoxyCompactItemize}
+
+
+\subsection{詳解}
+
+
+ test.\+cpp の 52 行目に定義があります。
+
+
+
+\subsection{構築子と解体子}
+\mbox{\Hypertarget{class_list_a1fa6361e0cbcad09ed3e748b22eb1e19}\label{class_list_a1fa6361e0cbcad09ed3e748b22eb1e19}} 
+\index{List@{List}!List@{List}}
+\index{List@{List}!List@{List}}
+\subsubsection{\texorpdfstring{List()}{List()}}
+{\footnotesize\ttfamily List\+::\+List (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+ test.\+cpp の 59 行目に定義があります。
+
+
+\begin{DoxyCode}
+59                  \{
+60         \textcolor{comment}{/* データ数分メモリ確保 */}
+61         this->\hyperlink{class_list_a0fd821411e5922f1733b2afe207f6b28}{data} = \textcolor{keyword}{new} \hyperlink{class_list_item}{ListItem} * [num];
+62         \textcolor{comment}{/* 現在のポインタ位置 */}
+63         this->\hyperlink{class_list_ab03801c8c3765b381b45a306d34f5daa}{point} = 0;
+64         \textcolor{comment}{/* 最大サイズ */}
+65         this->\hyperlink{class_list_a73fc93ef327ff5f4bb35fd628b658d50}{max} = num;
+66     \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_list_a70aecf37bd9d779a394e4d50377fbf5f}\label{class_list_a70aecf37bd9d779a394e4d50377fbf5f}} 
+\index{List@{List}!````~List@{$\sim$\+List}}
+\index{````~List@{$\sim$\+List}!List@{List}}
+\subsubsection{\texorpdfstring{$\sim$\+List()}{~List()}}
+{\footnotesize\ttfamily List\+::$\sim$\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+ test.\+cpp の 68 行目に定義があります。
+
+
+\begin{DoxyCode}
+68            \{
+69         \textcolor{keyword}{delete}[] this->\hyperlink{class_list_a0fd821411e5922f1733b2afe207f6b28}{data};
+70     \}
+\end{DoxyCode}
+
+
+\subsection{関数詳解}
+\mbox{\Hypertarget{class_list_a593e13086a1d135ac9efb530d26cd94b}\label{class_list_a593e13086a1d135ac9efb530d26cd94b}} 
+\index{List@{List}!Add@{Add}}
+\index{Add@{Add}!List@{List}}
+\subsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily void List\+::\+Add (\begin{DoxyParamCaption}\item[{\hyperlink{class_list_item}{List\+Item} $\ast$}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+ test.\+cpp の 72 行目に定義があります。
+
+
+
+参照元 main().
+
+
+\begin{DoxyCode}
+72                          \{
+73         \textcolor{comment}{/* データオーバー */}
+74         \textcolor{keywordflow}{if}(this->\hyperlink{class_list_ab03801c8c3765b381b45a306d34f5daa}{point} >= this->\hyperlink{class_list_a73fc93ef327ff5f4bb35fd628b658d50}{max})\{
+75             cout << \textcolor{stringliteral}{"memory size over"} << endl;
+76             \textcolor{keywordflow}{return};
+77         \}
+78         \textcolor{comment}{/* データ格納 */}
+79         \hyperlink{class_list_a0fd821411e5922f1733b2afe207f6b28}{data}[this->\hyperlink{class_list_ab03801c8c3765b381b45a306d34f5daa}{point}++] = p;
+80         \textcolor{keywordflow}{return};
+81     \}
+\end{DoxyCode}
+被呼び出し関係図\+:
+% FIG 1
+\mbox{\Hypertarget{class_list_a071cb188f9bb9bb8d1d79e6f939c586c}\label{class_list_a071cb188f9bb9bb8d1d79e6f939c586c}} 
+\index{List@{List}!Print@{Print}}
+\index{Print@{Print}!List@{List}}
+\subsubsection{\texorpdfstring{Print()}{Print()}}
+{\footnotesize\ttfamily void List\+::\+Print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+ test.\+cpp の 96 行目に定義があります。
+
+
+
+参照先 List\+Item\+::\+Print().
+
+
+
+参照元 main().
+
+
+\begin{DoxyCode}
+96                 \{
+97         \textcolor{comment}{/* データ印字 */}
+98         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} loop = 0 ; loop < this->\hyperlink{class_list_ab03801c8c3765b381b45a306d34f5daa}{point}; loop++)\{
+99             \hyperlink{class_list_a0fd821411e5922f1733b2afe207f6b28}{data}[loop]->\hyperlink{class_list_item_a0bb35843489312a6796d6f94f4395399}{Print}();
+100         \}
+101         \textcolor{keywordflow}{return};
+102     \}
+\end{DoxyCode}
+呼び出し関係図\+:
+% FIG 2
+被呼び出し関係図\+:
+% FIG 3
+\mbox{\Hypertarget{class_list_a518ec1c2a0f0331d4f5fd5733e197d0c}\label{class_list_a518ec1c2a0f0331d4f5fd5733e197d0c}} 
+\index{List@{List}!Search@{Search}}
+\index{Search@{Search}!List@{List}}
+\subsubsection{\texorpdfstring{Search()}{Search()}}
+{\footnotesize\ttfamily void List\+::\+Search (\begin{DoxyParamCaption}\item[{const char $\ast$}]{input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+ test.\+cpp の 104 行目に定義があります。
+
+
+
+参照元 main().
+
+
+\begin{DoxyCode}
+104                                   \{
+105         \textcolor{comment}{/* データ存在を確認 */}
+106         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} loop = 0 ; loop < this->\hyperlink{class_list_ab03801c8c3765b381b45a306d34f5daa}{point}; loop++)\{
+107             \textcolor{comment}{/* データ存在 */}
+108             \textcolor{keywordflow}{if}(!strcmp(input,\hyperlink{class_list_a0fd821411e5922f1733b2afe207f6b28}{data}[loop]->name))\{
+109                 cout << input << \textcolor{stringliteral}{" is exist"} << endl;
+110                 \textcolor{keywordflow}{return};
+111             \}
+112         \}
+113         \textcolor{comment}{/* データ存在しない */}
+114         cout << input << \textcolor{stringliteral}{" is not exist"} << endl;
+115         \textcolor{keywordflow}{return};
+116     \}
+\end{DoxyCode}
+被呼び出し関係図\+:
+% FIG 4
+\mbox{\Hypertarget{class_list_ac59284ff8d930a99616e9a13d49f92b4}\label{class_list_ac59284ff8d930a99616e9a13d49f92b4}} 
+\index{List@{List}!Sort@{Sort}}
+\index{Sort@{Sort}!List@{List}}
+\subsubsection{\texorpdfstring{Sort()}{Sort()}}
+{\footnotesize\ttfamily void List\+::\+Sort (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+ test.\+cpp の 83 行目に定義があります。
+
+
+
+参照先 swap().
+
+
+
+参照元 main().
+
+
+\begin{DoxyCode}
+83                \{
+84         \textcolor{comment}{/* ソートする */}
+85         \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} loop = 0; loop < this->\hyperlink{class_list_ab03801c8c3765b381b45a306d34f5daa}{point} - 1; loop++)\{
+86             \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} loop2 = this->point - 1 ; loop2 > loop ; loop2--)\{
+87                 \textcolor{keywordflow}{if}(strcmp(this->\hyperlink{class_list_a0fd821411e5922f1733b2afe207f6b28}{data}[loop2]->name,this->\hyperlink{class_list_a0fd821411e5922f1733b2afe207f6b28}{data}[loop2 - 1]->name) < 0)\{
+88                     \textcolor{comment}{/* スワップする */}
+89                     \hyperlink{test_8cpp_add33a83c7b2de277d5846db56efc6dae}{swap}(this->\hyperlink{class_list_a0fd821411e5922f1733b2afe207f6b28}{data}[loop2],this->\hyperlink{class_list_a0fd821411e5922f1733b2afe207f6b28}{data}[loop2 -1]);
+90                 \}
+91             \}
+92         \}
+93         \textcolor{keywordflow}{return};
+94     \}
+\end{DoxyCode}
+呼び出し関係図\+:
+% FIG 5
+被呼び出し関係図\+:
+% FIG 6
+
+
+\subsection{メンバ詳解}
+\mbox{\Hypertarget{class_list_a0fd821411e5922f1733b2afe207f6b28}\label{class_list_a0fd821411e5922f1733b2afe207f6b28}} 
+\index{List@{List}!data@{data}}
+\index{data@{data}!List@{List}}
+\subsubsection{\texorpdfstring{data}{data}}
+{\footnotesize\ttfamily \hyperlink{class_list_item}{List\+Item}$\ast$$\ast$ List\+::data\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+ test.\+cpp の 54 行目に定義があります。
+
+\mbox{\Hypertarget{class_list_a73fc93ef327ff5f4bb35fd628b658d50}\label{class_list_a73fc93ef327ff5f4bb35fd628b658d50}} 
+\index{List@{List}!max@{max}}
+\index{max@{max}!List@{List}}
+\subsubsection{\texorpdfstring{max}{max}}
+{\footnotesize\ttfamily int List\+::max\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+ test.\+cpp の 56 行目に定義があります。
+
+\mbox{\Hypertarget{class_list_ab03801c8c3765b381b45a306d34f5daa}\label{class_list_ab03801c8c3765b381b45a306d34f5daa}} 
+\index{List@{List}!point@{point}}
+\index{point@{point}!List@{List}}
+\subsubsection{\texorpdfstring{point}{point}}
+{\footnotesize\ttfamily int List\+::point\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+ test.\+cpp の 55 行目に定義があります。
+
+
+
+このクラス詳解は次のファイルから抽出されました\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{test_8cpp}{test.\+cpp}\end{DoxyCompactItemize}
