@@ -9,7 +9,7 @@ int get_data(int button){
 	}else{
 		get_data = 60;
 	}
-	
+	//
 	return get_data;
 }
 
