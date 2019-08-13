@@ -17,3 +17,5 @@ int dial_point(){
 	srand((unsigned)time(NULL));
 	return (rand() % 10);
 }
+
+
