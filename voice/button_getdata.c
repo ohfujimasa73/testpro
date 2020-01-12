@@ -13,6 +13,7 @@ int get_data(int button){
 	return get_data;
 }
 
+
 int dial_point(){
 	srand((unsigned)time(NULL));
 	return (rand() % 10);
