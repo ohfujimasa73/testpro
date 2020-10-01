@@ -7,3 +7,10 @@ void out_voice(int num){
 
 
 
+
+
+
+
+
+
+
