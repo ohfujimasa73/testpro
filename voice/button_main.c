@@ -17,6 +17,14 @@ static void SigHandler(int SignalName);
 static int change_mode();
 static void change_button();
 
+
+
+
+
+
+
+
+
 int PUSH_BUTTON;
 
 int main(){
