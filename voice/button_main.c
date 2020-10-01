@@ -23,6 +23,9 @@ int main(){
 	
 	PUSH_BUTTON = AMPLFER;
 	struct sigaction action;
+	
+	
+	
 	struct itimerval timer;
 	/* シグナルの設定 */
 	action.sa_handler = SignalHandlerTime;
