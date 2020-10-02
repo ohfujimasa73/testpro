@@ -7,6 +7,13 @@ class person {
 };
 
 
+
+
+
+
+
+
+opmoipoipmjoi
 int main(){
 	
 	
