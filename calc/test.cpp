@@ -4,10 +4,6 @@ class person {
 	
 	ssdsddd
 	
-	
-	
-	
-	
 };
 
 
